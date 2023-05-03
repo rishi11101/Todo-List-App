@@ -1,0 +1,71 @@
+@media screen and (max-width : 500px) {
+
+    h1{
+        font-size: 2.2rem;
+        margin: 1.5rem 0;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    .input-container{
+        align-items: center;
+        height: 3rem;
+        padding-left: 0.8rem;
+        padding-right: 0.6rem;
+    }
+    .input-container i{
+        font-size: 1rem;
+    }
+    .input-container input{
+        font-size: 0.88rem;
+    }
+    .input-container input::placeholder{
+        font-size: 0.9rem;
+    }
+    .input-container button{
+        font-size: 0.8rem;
+        height: 1.8rem;
+        width: 3rem;
+    }
+
+    .task-container{
+        padding: 1rem;
+    }
+
+    .checkbox{
+        aspect-ratio: 1/1;
+        height: 0.9rem;
+    }
+
+    .task .text{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .icons{
+        font-size: 1.1rem;
+        gap: 0.8rem;
+        justify-content: flex-end;
+        align-items: center;
+        transform: translateY(-0.2rem);
+    }
+
+    .task{
+        flex-direction: column;
+    }
+    .edit-buttons{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .cancel{
+        font-size: 0.9rem;
+    }
+
+    .clear-btn{
+        font-size: 0.9rem;
+        width: 60%;
+    }
+}

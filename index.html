@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body onload="addItem(taskArr)">
+
+    <div class="wrapper">
+        
+        <div class="bg">
+            <img src="bg.jpg">
+        </div>
+
+        <div class="container">
+
+            <h1>TO-DO LIST</h1>
+
+            <form class="input-container">
+
+                <i class="fa-solid fa-list-check"></i>
+                <input class="input-area" type="text" placeholder="Add your tasks here...">
+                <button class="add-btn">Add</button>
+
+            </form>
+
+            <div class="task-container">
+                
+            </div>
+
+            <button class="clear-btn">Clear All Tasks</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/d997726a4c.js" crossorigin="anonymous"></script>
+</body>
+</html>
